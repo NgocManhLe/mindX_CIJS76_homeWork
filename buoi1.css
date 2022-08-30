@@ -1,0 +1,92 @@
+main {
+    width: 650px;
+    background-color: beige;
+    margin: 0 auto;
+}
+.cursor {
+    cursor: pointer;
+    background-color: rgb(48, 14, 241);
+    color: white;
+    min-width: 100px;
+    border: none;
+    font-size: 17px;
+}
+
+::placeholder{
+    color: blue;
+    font-size: 17px;
+}
+
+:focus{outline: none;}
+
+.phoneInfo {
+    padding: 40px 0;
+    margin: 50px 0;
+    box-sizing: border-box;
+}
+
+.addPhoneInfo {
+    margin-left: 50px
+}
+
+.addPhoneInfo__list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.addPhoneInfo-item {
+    margin: 10px 10px;
+}
+
+.addPhoneInfo-item input {
+    padding: 10px 12px;
+    border-radius: 15px;
+    border: 1px solid #999;
+    
+}
+
+.searchPhoneInfo {
+    margin-left: 50px;
+}
+
+.searchPhoneInfo__list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.searchPhoneInfo-item {
+    margin: 10px 10px;
+
+}
+
+.searchPhoneInfo-item input {
+    padding: 10px 15px;
+    border-radius: 15px;
+    border: 1px solid #999;
+}
+
+.numPhoneInfo {
+    border-radius: 20px;
+}
+
+.numPhoneInfo__list {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 40px;
+    margin-bottom: 20px;
+    background-color: #999;
+    border: 1px solid #444;
+    border-radius: 20px;
+}
+
+.numPhoneInfo-text {
+    margin-left: 20px;
+}
+
+.numPhoneInfo-num {
+    margin-right: 20px;
+}
+
+
