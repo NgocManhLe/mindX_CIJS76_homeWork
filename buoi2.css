@@ -1,0 +1,41 @@
+.app {
+    margin: auto;
+    width: 500px;
+    padding: 20px;
+}
+
+.addApp {
+    border-bottom: 1px solid #888;
+   }
+
+.addApp input {
+    font-size: 30px;
+    color: #999;
+    border-radius:5px;
+    border: none;
+    width: 100%;
+    padding: 15px 0 15px 20px;
+    cursor: pointer;
+}
+
+.addApp input:focus {
+    border: none;
+}
+
+#listApp__list {
+    margin-left: 20px;
+}
+
+.listApp__item {
+    font-size: 25px;
+  
+}
+
+.appFooter {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 40px 0 40px;
+    color: #999;
+}
+
