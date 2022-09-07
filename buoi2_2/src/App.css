@@ -1,0 +1,50 @@
+.App {
+    margin: 0 auto;
+    width: 300px;
+    padding:100px 0;
+}
+
+.todo__add input {
+    padding: 10px 30px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    margin-bottom: 30px;
+}
+
+.todo__list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.todo__list {
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+
+.todo__item li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.todo__item li p {
+    margin: 0;
+}
+
+.todo__item li button {
+    background-color: chocolate;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: #999;
+}
